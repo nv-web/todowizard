@@ -30,11 +30,11 @@ const Todo = () => {
   };
 
   return (
-    <div className="max-w-6xl mx-auto sm:mt-8 p-4 bg-gray-200 rounded-lg">
-      <h2 className="mt-3 mb-6 text-2xl font-bold text-center uppercase">
+    <div className="max-w-7xl mx-auto sm:mt-20 p-4 bg-gray-200 rounded-lg">
+      <h2 className="mt-3 mb-6 text-3xl font-bold text-center uppercase">
         Add your Tasks here :-
       </h2>
-      <div className="flex items-center mb-4">
+      <div className="flex items-center p-3 mb-4">
         <input
           id="addTodoInput"
           className="flex-grow p-2 border-b-2 border-gray-300 focus:outline-none focus:border-blue-500 rounded"
