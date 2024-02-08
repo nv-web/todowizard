@@ -78,7 +78,7 @@ const Todo = () => {
               </div>
               <input
                 type="toDoSearch"
-                className="block h-8 w-full p-4 ps-10 text-sm text-white border border-gray-300 rounded-lg bg-blue-50 focus:ring-blue-500 focus:border-blue-500"
+                className="block h-8 w-full p-4 ps-10 text-sm text-black border border-gray-300 rounded-lg bg-blue-50 focus:ring-blue-500 focus:border-blue-500"
                 placeholder="Search Tasks"
                 value={searchTerm}
                 onChange={(e) => handleSearchChange(e.target.value)}
