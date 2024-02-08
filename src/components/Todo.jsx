@@ -34,12 +34,12 @@ const Todo = () => {
       <h2 className="mt-3 mb-6 text-3xl font-bold text-center uppercase">
         Add your Tasks here :-
       </h2>
-      <div className="flex items-center p-3 mb-4">
+      <div className="flex items-center p-3 mb-4 rounded-lg">
         <input
           id="addTodoInput"
           className="flex-grow p-2 border-b-2 border-gray-300 focus:outline-none focus:border-blue-500 rounded"
           type="text"
-          placeholder="Add Todo"
+          placeholder="Add a Task"
           value={newTodoText}
           onChange={(e) => setNewTodoText(e.target.value)}
         />
