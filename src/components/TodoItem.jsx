@@ -52,7 +52,7 @@ const TodoItem = ({ todo, index }) => {
         )}
         {todo.completed && (
           <button
-            className="text-sm bg-yellow-500 text-white sm:px-2 px-1 py-1 rounded"
+            className="h-8 w-8 text-sm bg-yellow-500 text-white sm:px-2 px-1 py-1 rounded-full"
             onClick={() => dispatch(markIncomplete(index))}
           >
             <FaTimes />
